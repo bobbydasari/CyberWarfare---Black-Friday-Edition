@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css";
 import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import AppNavbar from "@/components/Navbar";
 import Footer from "@/components/Footer";

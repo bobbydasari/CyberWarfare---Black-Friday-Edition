@@ -1,3 +1,4 @@
+// src/components/homes/home-2/BannerAreaHomeTwo.jsx
 "use client";
 
 import React from "react";
@@ -38,6 +39,89 @@ const BannerAreaHomeTwo = () => {
 
   return (
     <>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+        .lonyo-video-section2 {
+          padding: 60px 0 120px !important;
+          background: #fff;
+          position: relative;
+        }
+        .lonyo-hero-dashbord {
+          max-width: 1000px !important;
+          margin: 0 auto !important;
+          border-radius: 24px !important;
+          overflow: visible !important;
+          box-shadow: none !important;
+          background: transparent !important;
+        }
+        .banner-swiper.swiper {
+          border-radius: 24px !important;
+          overflow: visible !important;
+          padding-bottom: 80px !important;
+        }
+        .banner-swiper .swiper-slide {
+          border-radius: 24px !important;
+          overflow: hidden !important;
+          transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+          box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15) !important;
+        }
+        .banner-swiper .swiper-slide:hover {
+          transform: scale(1.02) !important;
+        }
+        .banner-swiper .swiper-slide img {
+          width: 100% !important;
+          height: 480px !important;
+          object-fit: cover !important;
+          border-radius: 24px !important;
+          display: block !important;
+        }
+        .banner-swiper .swiper-pagination {
+          bottom: 20px !important;
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          gap: 12px !important;
+          z-index: 10 !important;
+        }
+        .banner-swiper .swiper-pagination-bullet {
+          width: 12px !important;
+          height: 12px !important;
+          background: #ffc107 !important;
+          opacity: 0.3 !important;
+          margin: 0 !important;
+          transition: all 0.3s ease !important;
+          border-radius: 50% !important;
+        }
+        .banner-swiper .swiper-pagination-bullet-active {
+          width: 40px !important;
+          border-radius: 10px !important;
+          opacity: 1 !important;
+          background: #ffc107 !important;
+        }
+        .banner-swiper .swiper-button-next,
+        .banner-swiper .swiper-button-prev {
+          background: #fff !important;
+          width: 55px !important;
+          height: 55px !important;
+          border-radius: 50% !important;
+          box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+          color: #142D6F !important;
+          transition: all 0.3s ease !important;
+        }
+        .banner-swiper .swiper-button-next:hover,
+        .banner-swiper .swiper-button-prev:hover {
+          background: #ffc107 !important;
+          color: #fff !important;
+        }
+        .banner-swiper .swiper-button-next::after,
+        .banner-swiper .swiper-button-prev::after {
+          font-size: 18px !important;
+          font-weight: bold !important;
+        }
+      `,
+        }}
+      />
       <div className="lonyo-dasyboard-shape">
         <img
           src="/assets/images/shape/shape5.svg"
