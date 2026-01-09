@@ -4,8 +4,8 @@ const HeroAreaHomeTwo = () => {
   return (
     <div className="lonyo-hero-section2 bg-heading">
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
+        <div className="row justify-content-center my-5">
+          <div className="col-lg-10 text-center my-5">
             <div
               className="lonyo-hero-content2"
               data-aos="fade-up"
@@ -13,7 +13,7 @@ const HeroAreaHomeTwo = () => {
             >
               <h1 className="hero-title">
                 Master Skills with{" "}
-                <span>
+                <span className="text-warning">
                   Premium <br />
                   Courses
                 </span>{" "}

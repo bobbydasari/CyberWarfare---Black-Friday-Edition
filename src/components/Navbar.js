@@ -8,7 +8,7 @@ export default function AppNavbar() {
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
-      <Container>
+      <Container className="my-3">
         <Navbar.Brand as={Link} href="/" className="fw-bold text-warning">
           Black-Friday Course App
         </Navbar.Brand>
