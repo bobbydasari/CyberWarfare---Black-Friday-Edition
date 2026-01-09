@@ -161,13 +161,13 @@ The application is optimized for deployment on **Vercel**.
 
 ## 📸 Screenshots
 
-|                Signup Page                |                Courses List                 |
-| :---------------------------------------: | :-----------------------------------------: |
-| ![Signup](/public/screenshots/signup.png) | ![Courses](/public/screenshots/courses.png) |
+|                Signup Page                |               Courses List               |
+| :---------------------------------------: | :--------------------------------------: |
+| ![Signup](/public/screenshots/signup.png) | ![Courses](/public/screenshots/web9.png) |
 
-|               Course Detail               |                    My Courses                     |
-| :---------------------------------------: | :-----------------------------------------------: |
-| ![Detail](/public/screenshots/detail.png) | ![My Courses](/public/screenshots/my-courses.png) |
+|              Course Detail              |                 My Courses                  |
+| :-------------------------------------: | :-----------------------------------------: |
+| ![Detail](/public/screenshots/web8.png) | ![My Courses](/public/screenshots/web3.png) |
 
 _(Note: Please ensure the `public/screenshots` directory exists and contains the relevant images.)_
 
