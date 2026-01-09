@@ -6,7 +6,7 @@ const AboutMission = () => {
     <div className="lonyo-section-padding1 py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-lg-6">
             <div
               className="lonyo-about-us-thumb2 pr-51"
               data-aos="fade-up"
@@ -18,7 +18,7 @@ const AboutMission = () => {
               />
             </div>
           </div>
-          <div className="col-lg-7 d-flex align-items-center">
+          <div className="col-lg-6 d-flex align-items-center">
             <div
               className="lonyo-default-content pl-32"
               data-aos="fade-up"
