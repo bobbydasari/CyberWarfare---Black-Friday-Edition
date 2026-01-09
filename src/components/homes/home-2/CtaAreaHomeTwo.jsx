@@ -12,10 +12,13 @@ const CtaAreaHomeTwo = () => {
       </div>
       <div className="container">
         <div className="lonyo-section-title center max-width-750 pb-40">
-          <h2 className="title">
-            💎 Unlock More Courses, Achieve More Goals 💎
+          <h2 className="title text-center">
+            Unlock More Courses, Achieve More Goals
           </h2>
-          <p style={{ fontSize: "24px", lineHeight: "35px" }}>
+          <p
+            style={{ fontSize: "24px", lineHeight: "35px" }}
+            className="text-center my-5"
+          >
             Expand your knowledge by exploring our complete course catalog. The
             more you learn, the more you <span className="fw-bold">GROW</span>.
             Don't miss out on exclusive{" "}

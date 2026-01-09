@@ -53,8 +53,8 @@ const FinancialUpdatesHomeTwo = () => {
   return (
     <div className="lonyo-section-padding3">
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9 d-flex align-items-center">
+        <div className="row justify-content-center my-5">
+          <div className="col-lg-9 d-flex align-items-center border-bottom">
             <div
               className="lonyo-default-content pr-100"
               data-aos="fade-up"
@@ -62,7 +62,7 @@ const FinancialUpdatesHomeTwo = () => {
             >
               <h2>Frequently Asked Questions</h2>
               <div className="mt-50">
-                <div className="lonyo-faq-wrap1">
+                <div className="lonyo-faq-wrap1 mt-5">
                   {faqs.map((item, i) => (
                     <div
                       key={item.id}
@@ -73,7 +73,10 @@ const FinancialUpdatesHomeTwo = () => {
                       data-aos-duration={item.delay}
                     >
                       <div className="lonyo-faq-header">
-                        <h4 onClick={() => setOpen(open === i ? null : i)}>
+                        <h4
+                          className="my-3"
+                          onClick={() => setOpen(open === i ? null : i)}
+                        >
                           {item.question}
                         </h4>
                         <div className="lonyo-active-icon">

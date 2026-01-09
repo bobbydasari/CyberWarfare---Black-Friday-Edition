@@ -33,7 +33,7 @@ const CourseListSection = () => {
     <div className="lonyo-section-padding" style={{ backgroundColor: "#fff" }}>
       <Container>
         <div
-          className="lonyo-section-title center max-width-750 pb-40 text-center my-5"
+          className="lonyo-section-title center max-width-750 pb-40 text-center mb-5"
           data-aos="fade-up"
         >
           <h2 className="text-center pt-5">Explore Our Course Catalog</h2>
