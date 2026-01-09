@@ -43,7 +43,7 @@ const BannerAreaHomeTwo = () => {
         dangerouslySetInnerHTML={{
           __html: `
         .lonyo-video-section2 {
-          padding: 60px 0 120px !important;
+          padding: 30px 0 100px !important;
           background: #fff;
           position: relative;
         }
@@ -51,33 +51,33 @@ const BannerAreaHomeTwo = () => {
           max-width: 1000px !important;
           margin: 0 auto !important;
           border-radius: 24px !important;
-          overflow: visible !important;
+          overflow: hidden !important;
           box-shadow: none !important;
           background: transparent !important;
         }
         .banner-swiper.swiper {
           border-radius: 24px !important;
-          overflow: visible !important;
-          padding-bottom: 80px !important;
+          overflow: hidden !important;
+          padding-bottom: 60px !important;
         }
         .banner-swiper .swiper-slide {
           border-radius: 24px !important;
           overflow: hidden !important;
           transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-          box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
         }
         .banner-swiper .swiper-slide:hover {
-          transform: scale(1.02) !important;
+          transform: scale(1.01) !important;
         }
         .banner-swiper .swiper-slide img {
           width: 100% !important;
-          height: 480px !important;
+          height: 400px !important;
           object-fit: cover !important;
           border-radius: 24px !important;
           display: block !important;
         }
         .banner-swiper .swiper-pagination {
-          bottom: 20px !important;
+          bottom: 10px !important;
           display: flex !important;
           justify-content: center !important;
           align-items: center !important;
@@ -85,16 +85,16 @@ const BannerAreaHomeTwo = () => {
           z-index: 10 !important;
         }
         .banner-swiper .swiper-pagination-bullet {
-          width: 12px !important;
-          height: 12px !important;
+          width: 10px !important;
+          height: 10px !important;
           background: #ffc107 !important;
-          opacity: 0.3 !important;
+          opacity: 0.6 !important;
           margin: 0 !important;
           transition: all 0.3s ease !important;
           border-radius: 50% !important;
         }
         .banner-swiper .swiper-pagination-bullet-active {
-          width: 40px !important;
+          width: 35px !important;
           border-radius: 10px !important;
           opacity: 1 !important;
           background: #ffc107 !important;
