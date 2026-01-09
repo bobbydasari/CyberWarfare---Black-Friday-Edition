@@ -13,7 +13,14 @@ import { FaXTwitter, FaThreads } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="lonyo-footer-section light-bg">
+    <footer
+      className="lonyo-footer-section"
+      style={{
+        backgroundColor: "#1a1a1a",
+        color: "#ffffff",
+        padding: "60px 0 30px",
+      }}
+    >
       <div className="container">
         <div className="lonyo-footer-one">
           <div className="row">
@@ -40,44 +47,56 @@ const Footer = () => {
                   </h3>
                 </Link>
 
-                <div className="lonyo-social-wrap">
-                  <ul>
-                    <li>
+                <div
+                  className="lonyo-social-wrap"
+                  style={{ marginTop: "20px" }}
+                >
+                  <ul
+                    style={{
+                      display: "flex",
+                      gap: "15px",
+                      listStyle: "none",
+                      padding: 0,
+                      margin: 0,
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaXTwitter />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaTelegramPlane />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaThreads />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaSnapchatGhost />
                       </a>
                     </li>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaRedditAlien />
                       </a>

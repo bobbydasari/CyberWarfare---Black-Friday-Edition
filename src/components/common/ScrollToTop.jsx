@@ -39,23 +39,69 @@ const ScrollToTop = () => {
   };
 
   return (
-    <div className="paginacontainer">
+    <div
+      className="paginacontainer"
+      style={{
+        position: "fixed",
+        bottom: "30px",
+        right: "30px",
+        zIndex: 9999,
+        width: "auto",
+        height: "auto",
+      }}
+    >
       <div
         className={`progress-wrap ${isActive ? "active-progress" : ""}`}
         onClick={scrollToTop}
+        style={{
+          position: "relative",
+          width: "50px",
+          height: "50px",
+          cursor: "pointer",
+          display: isActive ? "flex" : "none",
+          alignItems: "center",
+          justifyContent: "center",
+          borderRadius: "50%",
+          boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
+          backgroundColor: "#fff",
+          transition: "all 0.3s ease-out",
+          overflow: "hidden",
+        }}
       >
         <svg
           className="progress-circle svg-content"
-          width="100%"
-          height="100%"
+          width="50"
+          height="50"
           viewBox="-1 -1 102 102"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            transform: "rotate(-90deg)",
+          }}
         >
           <path
             ref={progressPathRef}
             d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+            fill="none"
+            stroke="#ffc107"
+            strokeWidth="3"
           />
         </svg>
-        <div className="top-arrow">
+        <div
+          className="top-arrow"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <svg
             width="12"
             height="20"
