@@ -7,25 +7,40 @@ export default function AppNavbar() {
   const { user, logout } = useAuth();
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
-      <Container className="my-3">
+    <Navbar
+      variant="dark"
+      expand="lg"
+      className="mb-4"
+      style={{ backgroundColor: "#142d6f" }}
+    >
+      <Container className="my-2">
         <Navbar.Brand as={Link} href="/" className="fw-bold text-warning">
-          Black-Friday Course App
+          {/* Black-Friday Course App */}
+          <img
+            src="/assets/images/logo.png"
+            alt="Course App Logo"
+            width={150}
+            height={45}
+            onError={(e) => {
+              e.target.style.display = "none";
+              e.target.nextSibling.style.display = "block";
+            }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} href="/">
+            <Nav.Link as={Link} href="/" style={{ color: "white" }}>
               Home
             </Nav.Link>
-            <Nav.Link as={Link} href="/about-us">
+            <Nav.Link as={Link} href="/about-us" style={{ color: "white" }}>
               About Us
             </Nav.Link>
-            <Nav.Link as={Link} href="/contact-us">
+            <Nav.Link as={Link} href="/contact-us" style={{ color: "white" }}>
               Contact Us
             </Nav.Link>
             {user && (
-              <Nav.Link as={Link} href="/my-courses">
+              <Nav.Link as={Link} href="/my-courses" style={{ color: "white" }}>
                 My Courses
               </Nav.Link>
             )}

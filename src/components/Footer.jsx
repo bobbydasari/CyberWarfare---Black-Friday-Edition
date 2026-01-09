@@ -16,7 +16,7 @@ const Footer = () => {
     <footer
       className="lonyo-footer-section"
       style={{
-        backgroundColor: "#1a1a1a",
+        backgroundColor: "#142d6f",
         color: "#ffffff",
         padding: "60px 0 30px",
       }}
@@ -30,6 +30,8 @@ const Footer = () => {
                   <img
                     src="/assets/images/logo.png"
                     alt="Course App Logo"
+                    width={300}
+                    height={100}
                     onError={(e) => {
                       e.target.style.display = "none";
                       e.target.nextSibling.style.display = "block";
@@ -60,44 +62,85 @@ const Footer = () => {
                       margin: 0,
                       flexWrap: "wrap",
                     }}
+                    className="fs-5 fw-bold gap-4"
                   >
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaFacebookF />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaXTwitter />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaInstagram />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaLinkedinIn />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaTelegramPlane />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaThreads />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaSnapchatGhost />
                       </a>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "white" }}
+                      >
                         <FaRedditAlien />
                       </a>
                     </li>
@@ -150,11 +193,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="lonyo-footer-bottom-text">
-          <p>
+          <p className="text-center mt-5 fs-5 fw-bold">
             <small>
               © Copyright{" "}
-              <span id="current-year">{new Date().getFullYear()}</span>{" "}
-              CourseApp, All Rights Reserved
+              <span id="current-year">{new Date().getFullYear()}</span> Black
+              Friday - Edition , All Rights Reserved Designed and developed By
+              CyberWarfare
             </small>
           </p>
         </div>
