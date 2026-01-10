@@ -72,18 +72,19 @@ const FinancialUpdatesHomeTwo = () => {
                       data-aos="fade-up"
                       data-aos-duration={item.delay}
                     >
-                      <div className="lonyo-faq-header">
+                      <div className="lonyo-faq-header d-flex justify-content-between">
                         <h4
                           className="my-3"
                           onClick={() => setOpen(open === i ? null : i)}
                         >
                           {item.question}
                         </h4>
-                        <div className="lonyo-active-icon">
+                        <div className="lonyo-active-icon d-flex gap-2">
                           <img
                             className="plasicon"
-                            src="/assets/images/v1/mynus.svg"
+                            src="/assets/images/V1/mynus.svg"
                             alt="minus"
+                            width="27"
                             onError={(e) => {
                               e.target.style.display = "none";
                               e.target.parentElement.innerHTML = "−";
@@ -91,8 +92,9 @@ const FinancialUpdatesHomeTwo = () => {
                           />
                           <img
                             className="mynusicon"
-                            src="/assets/images/v1/plas.svg"
+                            src="/assets/images/V1/plas.svg"
                             alt="plus"
+                            width="27"
                             onError={(e) => {
                               e.target.style.display = "none";
                               e.target.parentElement.innerHTML = "+";

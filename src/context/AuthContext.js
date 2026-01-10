@@ -12,7 +12,8 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const token = Cookies.get("token");
-    const storedUser = localStorage.getItem("user");
+    const storedUser =
+      typeof window !== "undefined" ? localStorage.getItem("user") : null;
     if (token && storedUser) {
       setUser(JSON.parse(storedUser));
     }
@@ -21,13 +22,17 @@ export function AuthProvider({ children }) {
 
   const login = (token, userData) => {
     Cookies.set("token", token, { expires: 7 });
-    localStorage.setItem("user", JSON.stringify(userData));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("user", JSON.stringify(userData));
+    }
     setUser(userData);
   };
 
   const logout = () => {
     Cookies.remove("token");
-    localStorage.removeItem("user");
+    if (typeof window !== "undefined") {
+      localStorage.removeItem("user");
+    }
     setUser(null);
     router.push("/auth/login");
   };
