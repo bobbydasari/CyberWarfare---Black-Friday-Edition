@@ -67,7 +67,7 @@ const Footer = () => {
                   >
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -77,7 +77,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://twitter.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -87,7 +87,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.instagram.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -97,7 +97,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.linkedin.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -107,7 +107,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.telegram.org/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -117,7 +117,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://threads.net/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -127,7 +127,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.snapchat.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
@@ -137,7 +137,7 @@ const Footer = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                       <a
-                        href="#"
+                        href="https://www.reddit.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "white" }}
