@@ -177,16 +177,24 @@ const Footer = () => {
                 <h4>Privacy Links</h4>
                 <ul>
                   <li>
-                    <Link href="#">Privacy Policy</Link>
+                    <Link href="https://www.privacypolicyonline.com/">
+                      Privacy Policy
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Terms &amp; Conditions</Link>
+                    <Link href="https://www.termsfeed.com/">
+                      Terms &amp; Conditions
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Refund Policy</Link>
+                    <Link href="https://www.privacypolicyonline.com/">
+                      Refund Policy
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Cookie Policy</Link>
+                    <Link href="https://www.privacypolicyonline.com/">
+                      Cookie Policy
+                    </Link>
                   </li>
                 </ul>
               </div>
